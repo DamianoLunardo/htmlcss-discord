@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,100&family=Fredoka:wght@700&family=Inconsolata:wght@300;600&family=Open+Sans&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,100;9..40,700&family=Fredoka:wght@700&family=Inconsolata:wght@300;600&family=Open+Sans&family=Poppins:wght@200&display=swap');
+
 
 /*
 font-family: 'Anton', sans-serif;
@@ -34,27 +35,27 @@ body {
 
 .debug .page-header {
     padding: 15px;
-	background-color: rgb(167, 209, 229);
+	background-color: rgb(78, 61, 229);
 	min-height: 20px;
 }
 
 
 
-.debug [class^='col-'] {
+/*.debug [class^='col-'] {
 	min-height: 10px;
 	padding: 5px;
 	border: 2px solid rgb(0, 0, 0);
 	color: white;
 	font-weight: 600;
-}
+}*/
 
 /* header*/
 
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: rgb(248, 182, 29);
-	color: black;
+	/*background-color: rgb(248, 182, 29);*/
+	/*color: black;*/
 	justify-content: center;
 }
 
@@ -96,10 +97,55 @@ body {
 
 /* first section*/
 
-.debug .section-1 {
-	padding: 20px;
-    background-color: rgb(59, 5, 237);
-	min-height: 230px;
+ .section-1 {
+	padding: 50px;
+    min-height: 250px;
+    background-image: url("./img/jumbo.png");
+    object-fit: cover;
+   
+    
+}
+
+.s1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    color: white;
+    font-size: 30px;
+
+}
+
+.p1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+
+.btn-down {
+    padding-top: 30px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 140px;
+    height: 30px;
+}
+
+    
+.btn-open {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    width: 220px;
+    height: 30px;
+    
 }
 
 
@@ -112,7 +158,7 @@ body {
 }
 
 .col-8 {
-	background-color: pink;
+	/*background-color: pink;*/
 	flex-basis: 80%;
 	height: 240px;
 }
@@ -122,8 +168,25 @@ body {
 .debug .section-2 {
 	padding: 20px;
 	background-color: rgb(255, 255, 255);
-	min-height: 230px;
+	min-height: 600px;
 }
+
+.text2 {
+    padding-top: 100px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    color: black;
+    font-size: 20px;
+}
+
+.p2 {
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+
 
 .row-2 {
 	display: flex;
@@ -132,35 +195,42 @@ body {
 	justify-content: center;
 }
 
+.item1 {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
 .col-8a {
 	flex-basis: 100%;
-	height: 240px;
-	background-color: blue;
+	height: 500px;
+	/*background-color: blue;*/
+    
 }
 
 .col-4a {
 	flex-basis: 50%;
 	height: 240px;
-	background-color: rgb(235, 128, 199);
+	/*background-color: rgb(235, 128, 199);*/
 }
 
 /* section 3*/
 .debug .section-3 {
 	padding: 20px;
-	background-color: gray;
-	min-height: 230px;
+	/*background-color: gray;*/
+	min-height: 500px;
 }
 
 .col-8b {
 	flex-basis: 50%;
 	height: 240px;
-	background-color: rgb(235, 128, 199);
+	/*background-color: rgb(235, 128, 199);*/
 }
 
 .col-4b {
 	flex-basis: 100%;
 	height: 240px;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
 /* fifth section */
