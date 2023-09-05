@@ -35,27 +35,15 @@ body {
 
 .debug .page-header {
     padding: 15px;
-	background-color: rgb(78, 61, 229);
+	background-color: rgba(42, 94, 232, 255);
 	min-height: 20px;
 }
-
-
-
-/*.debug [class^='col-'] {
-	min-height: 10px;
-	padding: 5px;
-	border: 2px solid rgb(0, 0, 0);
-	color: white;
-	font-weight: 600;
-}*/
 
 /* header*/
 
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	/*background-color: rgb(248, 182, 29);*/
-	/*color: black;*/
 	justify-content: center;
 }
 
@@ -84,8 +72,6 @@ body {
     color: white;
 }
 
-
-
 .btn-acc {
     
     background-color: white;
@@ -100,11 +86,9 @@ body {
 
  .section-1 {
 	padding: 50px;
-    min-height: 250px;
+    min-height: 300px;
     background-image: url("./img/jumbo.png");
-    object-fit: cover;
-   
-    
+    background-size: cover;
 }
 
 .s1{
@@ -112,8 +96,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight:bold;
     color: white;
-    font-size: 30px;
-
+    font-size: 40px;
 }
 
 .p1 {
@@ -121,7 +104,6 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
-    
 }
 
 .btn-top {
@@ -156,7 +138,6 @@ body {
 .row-1 {
 	display: flex;
 	flex-wrap: wrap;
-	
 	color: black;
 	justify-content: center;
 }
@@ -169,10 +150,10 @@ body {
 
 /* section 2 */
 
+
+
 .debug .section-2 {
-	padding: 20px;
-	background-color: rgb(255, 255, 255);
-	/*min-height: 200px;*/
+	padding: 5px;
 }
 
 .text2 {
@@ -181,7 +162,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight:bold;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .p2 {
@@ -207,18 +188,19 @@ body {
 
 .col-8a {
 	flex-basis: 100%;
-	height: 500px;
-	/*background-color: blue;*/
-    
+	height: 400px;
 }
 
 .col-4a {
 	flex-basis: 50%;
 	height: 240px;
-	/*background-color: rgb(235, 128, 199);*/
 }
 
 /* section 3*/
+
+.svg {
+    background-image: url("./img/wave.svg");
+}
 
 .debug .section-3 {
 	padding: 20px;
@@ -240,11 +222,19 @@ body {
 
 /* fifth section */
 
+.wave-svg {
+    background-image: url("./img/wave.svg");
+    
+}
 
 .debug .section5 {
 	padding: 20px;
-	/*background-color: gray;*/
+    /*background-color: gray;*/
 }
+
+
+
+
 
 .col-8c {
 	flex-basis: 100%;
@@ -257,7 +247,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight:bold;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .p5 {
@@ -270,6 +260,7 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     background-image: url("./img/stars.svg");
+    background-size: contain;
 }
 
 .btn-down2 {
@@ -334,6 +325,10 @@ ul {
     font-size: 10px;
 }
 
+.color {
+    color: rgb(84, 109, 221);
+}
+
 /* footer 2nd part */
 .btn-reg {
     color: white;
@@ -342,7 +337,7 @@ ul {
     border: none;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
-    width: 70px;
+    width: 80px;
     height: 30px;
 }
 
