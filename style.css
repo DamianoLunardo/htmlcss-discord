@@ -105,12 +105,12 @@ body {
     color: white;
 }
 
-.btn-top {
+.button-top {
     padding-top: 15px;
     text-align: center;
 }
 
-.btn-down {
+.button-down {
     text-align: center;
     background-color: white;
     border: none;
@@ -120,7 +120,7 @@ body {
     height: 30px
 }
 
-.btn-open {
+.button-open {
     text-align: center;
     color: white;
     border: none;
@@ -282,7 +282,7 @@ body {
     background-size: contain;
 }
 
-.btn-down2 {
+.button-down2 {
     
     color: white;
     background-color: rgb(84, 109, 221);
@@ -343,14 +343,15 @@ ul {
     font-size: 10px;
 }
 
-.color {
+.color-text {
     color: rgb(84, 109, 221);
+    font-size: 15px;
 }
 
 
 /* footer 2nd part */
 
-.btn-reg {
+.button-reg {
     color: white;
     text-align: center;
     background-color:rgb(84, 109, 221) ;
