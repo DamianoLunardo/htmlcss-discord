@@ -199,6 +199,7 @@ body {
 
 .section-3 {
     background-color: #cccccc;
+    opacity: 90%;
 }
 
 .svg {
@@ -208,6 +209,7 @@ body {
     background-repeat: repeat-x;
     background-size: cover;
     background-position: center center;
+    opacity: 90%;
 }
 
 
@@ -242,10 +244,12 @@ body {
     background-image: url("./img/wave.svg");
     background-size: cover;
     background-position: center center;
+    opacity: 90%;
 }
 
 .section5 {
     background-color:#cccccc ;
+    opacity: 90%;
 }
 
 .debug .section5 {
